@@ -2,14 +2,14 @@
 Enum of colors for creating colored texts in the console
 
 
-####Установка
+##install
 
 ```console
-> composer required "ufo-cms/colored_cli: *"
+> composer require "ufo-cms/colored_cli: *"
 ```
 
 
-####Запуск
+#use
 
 ```php
 use \UfoCms\ColoredCli;
@@ -19,5 +19,3 @@ use \UfoCms\ColoredCli;
 echo CliColor::RED->value. "Some text" . CliColor::RESET->value;
 
 ```
-
-I
